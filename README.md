@@ -179,6 +179,7 @@ Baseline Stage (S1):
  - Test the Gemma 7b baseline, see how that works, then a oh-2.5-pro-mistral/reg. mistral baseline
  - Looking into using the old Nanophi model/logic datasets from it to see if small LMs can do anything
  - Start building a universal format/scraping all the data to it
+ - testing claude opus for a sympy format
 
-
+ - *try schedule-free optimizer by meta*
 
