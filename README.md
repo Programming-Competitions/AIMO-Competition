@@ -173,6 +173,7 @@ MiniCPM - 2404.06395
    - using model scaling width/depth
    - optimal batchsize: bs = 1.21×10^9 / L^6.24, L(loss), bs(batch_size)
    - LR doesnt change with scal, 0.5b to 7b same lr
+   - WSD LR schedule helps push smaller models to much larger level models loss
 
 ## building/work
 
@@ -185,6 +186,7 @@ Baseline Stage (S1):
 **Lil train/ft boost**
  - try schedule-free optimizer by meta
  - All the tricks from MiniCPM uP, wind tunnel, etc, and olympiad bench
+ - start introducing large amounts of instruct data towards the end of pretraining, (maybe curriculum learning style?)
 
 **hmm possible path forward**
 
