@@ -12,37 +12,37 @@ Deadline: June 20th
 
  - get all the past AMC/AIME/Putnam/other math data
  - links:
-    - http://markan.net/aime/syllabus.pdf IMPORTANT, Start with data categories/KG here
-    - https://kskedlaya.org/putnam-archive/
-    - https://drive.google.com/file/d/0B8JbOaFM5Xo_bnc2NUd0dDFLY1U/view?pref=2&pli=AIME&resourcekey=0-1tVMnKTLCkFlKuyljA_VyA
-    - https://cdn.artofproblemsolving.com/attachments/9/3/9ed002bb3307e38c2e626fc7354d1fc28f231a.pdf
-    - https://davidaltizio.web.illinois.edu/CollectionOfAIMESolutions.pdf
-    - https://cjquines.com/files/obscuregeothms.pdf
-    - https://huggingface.co/datasets/wellecks/minif2f_isabelle
-    - https://huggingface.co/datasets/cais/mmlu
-    - https://artofproblemsolving.com/wiki/index.php/AIME_Problems_and_Solutions
-    - https://artofproblemsolving.com/wiki/index.php/AMC_12_Problems_and_Solutions
-    - https://artofproblemsolving.com/wiki/index.php/AMC_8_Problems_and_Solutions
-    - https://artofproblemsolving.com/wiki/index.php/AMC_10_Problems_and_Solutions
-    - https://artofproblemsolving.com/wiki/index.php/AHSME_Problems_and_Solutions
-    - https://huggingface.co/datasets/hendrycks/competition_math
-    - https://artofproblemsolving.com/wiki/index.php/USAJMO_Problems_and_Solutions
-    - https://artofproblemsolving.com/wiki/index.php/USAMO_Problems_and_Solutions
-    - https://www.kaggle.com/datasets/alejopaullier/aimo-external-dataset
-    - https://github.com/OpenBMB/OlympiadBench?scrlybrkr=4c9c022b
-    - https://artofproblemsolving.com/community/c3158_usa_contests
-    - https://math.stackexchange.com/
-    - https://www.math.northwestern.edu/undergraduate/prizes-competitions-organizations/putnam/putnam-selection-tests.html
-    - https://www.math.northwestern.edu/documents/undergraduate/math-clubs-competitions-prizes/putnam/easy_putnam_problems.pdf
-    - https://www.math.northwestern.edu/documents/undergraduate/math-clubs-competitions-prizes/putnam/training_problems.pdf
-    - https://www2.math.upenn.edu/~wilf/gfologyLinked2.pdf
-    - https://vjimc.osu.cz/problems
-    - https://www.imc-math.org.uk/?year=1994&item=problems
-    - https://math.vt.edu/undergrad-math/vtrmc.html
-    - https://huggingface.co/datasets/math-ai/TemplateGSM
-    - https://huggingface.co/datasets/math-ai/StackMathQA
-    - https://huggingface.co/datasets/EleutherAI/proof-pile-2
-    - https://huggingface.co/datasets/nvidia/OpenMathInstruct-1
+ - http://markan.net/aime/syllabus.pdf IMPORTANT, Start with data categories/KG here
+ - https://kskedlaya.org/putnam-archive/
+ - https://drive.google.com/file/d/0B8JbOaFM5Xo_bnc2NUd0dDFLY1U/view?pref=2&pli=AIME&resourcekey=0-1tVMnKTLCkFlKuyljA_VyA
+ - https://cdn.artofproblemsolving.com/attachments/9/3/9ed002bb3307e38c2e626fc7354d1fc28f231a.pdf
+ - https://davidaltizio.web.illinois.edu/CollectionOfAIMESolutions.pdf
+ - https://cjquines.com/files/obscuregeothms.pdf
+ - https://huggingface.co/datasets/wellecks/minif2f_isabelle
+ - https://huggingface.co/datasets/cais/mmlu
+ - https://artofproblemsolving.com/wiki/index.php/AIME_Problems_and_Solutions
+ - https://artofproblemsolving.com/wiki/index.php/AMC_12_Problems_and_Solutions
+ - https://artofproblemsolving.com/wiki/index.php/AMC_8_Problems_and_Solutions
+ - https://artofproblemsolving.com/wiki/index.php/AMC_10_Problems_and_Solutions
+ - https://artofproblemsolving.com/wiki/index.php/AHSME_Problems_and_Solutions
+ - https://huggingface.co/datasets/hendrycks/competition_math
+ - https://artofproblemsolving.com/wiki/index.php/USAJMO_Problems_and_Solutions
+ - https://artofproblemsolving.com/wiki/index.php/USAMO_Problems_and_Solutions
+ - https://www.kaggle.com/datasets/alejopaullier/aimo-external-dataset
+ - https://github.com/OpenBMB/OlympiadBench?scrlybrkr=4c9c022b
+ - https://artofproblemsolving.com/community/c3158_usa_contests
+ - https://math.stackexchange.com/
+ - https://www.math.northwestern.edu/undergraduate/prizes-competitions-organizations/putnam/putnam-selection-tests.html
+ - https://www.math.northwestern.edu/documents/undergraduate/math-clubs-competitions-prizes/putnam/easy_putnam_problems.pdf
+ - https://www.math.northwestern.edu/documents/undergraduate/math-clubs-competitions-prizes/putnam/training_problems.pdf
+ - https://www2.math.upenn.edu/~wilf/gfologyLinked2.pdf
+ - https://vjimc.osu.cz/problems
+ - https://www.imc-math.org.uk/?year=1994&item=problems
+ - https://math.vt.edu/undergrad-math/vtrmc.html
+ - https://huggingface.co/datasets/math-ai/TemplateGSM
+ - https://huggingface.co/datasets/math-ai/StackMathQA
+ - https://huggingface.co/datasets/EleutherAI/proof-pile-2
+ - https://huggingface.co/datasets/nvidia/OpenMathInstruct-1
 https://huggingface.co/datasets/EleutherAI/proof-pile-2
 
  - scrape annas archive for math/logic textbooks
@@ -99,63 +99,63 @@ the answer is {ans}
 *The model outputs this, cpu gives final answer*
 
 ## Topics to look into
-Algebra:
-  Linear equations and inequalities
-  Quadratic equations and functions
-  Systems of equations
-  Polynomial equations
-  Rational expressions and equations
-  Exponential and logarithmic functions
-  Sequences and series
-  Complex numbers
+- Algebra:
+ - Linear equations and inequalities
+ - Quadratic equations and functions
+ - Systems of equations
+ - Polynomial equations
+ - Rational expressions and equations
+ - Exponential and logarithmic functions
+ - Sequences and series
+ - Complex numbers
 Geometry:
-  Triangles (similarity, congruence, special triangles)
-  Quadrilaterals (parallelograms, trapezoids, kites)
-  Circles (chords, tangents, arcs, sectors)
-  3D geometry (volumes, surface areas)
-  Coordinate geometry
-  Trigonometry
-  Vectors
+ - Triangles (similarity, congruence, special triangles)
+ - Quadrilaterals (parallelograms, trapezoids, kites)
+ - Circles (chords, tangents, arcs, sectors)
+ - 3D geometry (volumes, surface areas)
+ - Coordinate geometry
+ - Trigonometry
+ - Vectors
 Number Theory:
-  Prime numbers and factorization
-  Divisibility rules
-  Greatest common divisor and least common multiple
-  Modular arithmetic
-  Diophantine equations
-  Combinatorics
-  Probability
+ - Prime numbers and factorization
+ - Divisibility rules
+ - Greatest common divisor and least common multiple
+ - Modular arithmetic
+ - Diophantine equations
+ - Combinatorics
+ - Probability
 Calculus:
-  Limits and continuity
-  Derivatives and their applications
-  Integrals and their applications
-  Differential equations
-  Polar coordinates
-  Parametric equations
-  Infinite series
+ - Limits and continuity
+ - Derivatives and their applications
+ - Integrals and their applications
+ - Differential equations
+ - Polar coordinates
+ - Parametric equations
+ - Infinite series
 Discrete Mathematics:
-  Logic and proofs
-  Set theory
-  Combinatorics (permutations, combinations)
-  Graph theory
-  Algorithms and complexity
-  Recurrence relations
-  Generating functions
+ - Logic and proofs
+ - Set theory
+ - Combinatorics (permutations, combinations)
+ - Graph theory
+ - Algorithms and complexity
+ - Recurrence relations
+ - Generating functions
 Applied Mathematics:
-  Statistics and data analysis
-  Linear algebra and matrices
+ - Statistics and data analysis
+ - Linear algebra and matrices
 Game theory:
-  Optimization problems
-  Cryptography
-  Mathematical modeling
-  Numerical methods
+ - Optimization problems
+ - Cryptography
+ - Mathematical modeling
+ - Numerical methods
 Miscellaneous:
-  Word problems (age, distance, work, mixture)
-  Counting and probability paradoxes
-  Mathematical induction proofs
-  Inequalities (AM-GM, Cauchy-Schwarz, etc.)
-  Functional equations
-  Contest-specific problem types (AIME, USAMO, IMO, Putnam, etc.)
-  
+ - Word problems (age, distance, work, mixture)
+ - Counting and probability paradoxes
+ - Mathematical induction proofs
+ - Inequalities (AM-GM, Cauchy-Schwarz, etc.)
+ - Functional equations
+ - Contest-specific problem types (AIME, USAMO, IMO, Putnam, etc.)
+
 ## knowledge from papers
 
 MathGLM - 2309.03241
@@ -170,9 +170,9 @@ Self consistency - 2203.11171
 
 MiniCPM - 2404.06395
  - Model wind tunnel
-    - using model scaling width/depth
-    - optimal batchsize: bs = 1.21×10^9 / L^6.24, L(loss), bs(batch_size)
-    - LR doesnt change with scal, 0.5b to 7b same lr
+   - using model scaling width/depth
+   - optimal batchsize: bs = 1.21×10^9 / L^6.24, L(loss), bs(batch_size)
+   - LR doesnt change with scal, 0.5b to 7b same lr
 
 ## building/work
 
