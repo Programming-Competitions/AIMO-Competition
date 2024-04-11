@@ -41,6 +41,8 @@ Deadline: June 20th
     - https://math.vt.edu/undergrad-math/vtrmc.html
     - https://huggingface.co/datasets/math-ai/TemplateGSM
     - https://huggingface.co/datasets/math-ai/StackMathQA
+    - https://huggingface.co/datasets/EleutherAI/proof-pile-2
+    - https://huggingface.co/datasets/nvidia/OpenMathInstruct-1
 https://huggingface.co/datasets/EleutherAI/proof-pile-2
 
  - scrape annas archive for math/logic textbooks
