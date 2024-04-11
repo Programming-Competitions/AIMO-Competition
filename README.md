@@ -171,7 +171,8 @@ Self consistency - 2203.11171
 MiniCPM - 2404.06395
  - Model wind tunnel
     - using model scaling width/depth
-    - optimal batchsize: bs = 1.21×10^9 / L^6.24, L(loss), bs(batch_size) 
+    - optimal batchsize: bs = 1.21×10^9 / L^6.24, L(loss), bs(batch_size)
+    - LR doesnt change with scal, 0.5b to 7b same lr
 
 ## building/work
 
@@ -181,5 +182,20 @@ Baseline Stage (S1):
  - Start building a universal format/scraping all the data to it
  - testing claude opus for a sympy format
 
- - *try schedule-free optimizer by meta*
+**Lil train/ft boost**
+ - try schedule-free optimizer by meta
+ - All the tricks from MiniCPM uP, wind tunnel, etc, and olympiad bench
 
+**hmm possible path forward**
+
+ - self consistency search helps with answer consistency, but fails when the LLM fails to get the question right?
+ - Compiling a question to specific logical symbols and specific words we know the meaning to, means that we can format/rephrase any way we want
+ - So compile a question into words and problem statements using the LLM (**This is the key part, the rest of it wont work if the LLM misinterprets questions, for more info, look into neurallambda issue #2**) (*also the right time to look into winds dspy compiler thing*)
+ - Rephrase the question a couple times from that broken down version
+ - Self consistent search trees on everything, the LLM using the sympy/nl(natural language) words approach to get the answers
+ - return and format one answer
+ - *Possible extra step:* We breakdown theorems/concepts/steps for all the questions we encounter, and put them into one vector db, and whenever doing a problem, fuzzy/ngram the question bank, pull out the most similar question
+ - *Anything else from here is just whatever other papers have found on this, or if we pull more eureka*
+
+
+*Deepseek math 7b instruct can do 15/50 with just self consistency and a model with math training, no tools, no special features, nothing, just gs8mk/math level train/eval* **all this extra stuff should push it several reasoning strides further**
