@@ -188,7 +188,7 @@ Baseline Stage (S1):
 
 **hmm possible path forward**
 
- - self consistency search helps with answer consistency, but fails when the LLM fails to get the question right?
+ - self consistency search helps with answer consistency, but fails when the LLM fails to get the question misinterped?
  - Compiling a question to specific logical symbols and specific words we know the meaning to, means that we can format/rephrase any way we want
  - So compile a question into words and problem statements using the LLM (**This is the key part, the rest of it wont work if the LLM misinterprets questions, for more info, look into neurallambda issue #2**) (*also the right time to look into winds dspy compiler thing*)
  - Rephrase the question a couple times from that broken down version
