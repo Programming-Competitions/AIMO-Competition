@@ -100,61 +100,61 @@ the answer is {ans}
 
 ## Topics to look into
 - Algebra:
- - Linear equations and inequalities
- - Quadratic equations and functions
- - Systems of equations
- - Polynomial equations
- - Rational expressions and equations
- - Exponential and logarithmic functions
- - Sequences and series
- - Complex numbers
+  - Linear equations and inequalities
+  - Quadratic equations and functions
+  - Systems of equations
+  - Polynomial equations
+  - Rational expressions and equations
+  - Exponential and logarithmic functions
+  - Sequences and series
+  - Complex numbers
 Geometry:
- - Triangles (similarity, congruence, special triangles)
- - Quadrilaterals (parallelograms, trapezoids, kites)
- - Circles (chords, tangents, arcs, sectors)
- - 3D geometry (volumes, surface areas)
- - Coordinate geometry
- - Trigonometry
- - Vectors
+  - Triangles (similarity, congruence, special triangles)
+  - Quadrilaterals (parallelograms, trapezoids, kites)
+  - Circles (chords, tangents, arcs, sectors)
+  - 3D geometry (volumes, surface areas)
+  - Coordinate geometry
+  - Trigonometry
+  - Vectors
 Number Theory:
- - Prime numbers and factorization
- - Divisibility rules
- - Greatest common divisor and least common multiple
- - Modular arithmetic
- - Diophantine equations
- - Combinatorics
- - Probability
+  - Prime numbers and factorization
+  - Divisibility rules
+  - Greatest common divisor and least common multiple
+  - Modular arithmetic
+  - Diophantine equations
+  - Combinatorics
+  - Probability
 Calculus:
- - Limits and continuity
- - Derivatives and their applications
- - Integrals and their applications
- - Differential equations
- - Polar coordinates
- - Parametric equations
- - Infinite series
+  - Limits and continuity
+  - Derivatives and their applications
+  - Integrals and their applications
+  - Differential equations
+  - Polar coordinates
+  - Parametric equations
+  - Infinite series
 Discrete Mathematics:
- - Logic and proofs
- - Set theory
- - Combinatorics (permutations, combinations)
- - Graph theory
- - Algorithms and complexity
- - Recurrence relations
- - Generating functions
+  - Logic and proofs
+  - Set theory
+  - Combinatorics (permutations, combinations)
+  - Graph theory
+  - Algorithms and complexity
+  - Recurrence relations
+  - Generating functions
 Applied Mathematics:
- - Statistics and data analysis
- - Linear algebra and matrices
+  - Statistics and data analysis
+  - Linear algebra and matrices
 Game theory:
- - Optimization problems
- - Cryptography
- - Mathematical modeling
- - Numerical methods
+  - Optimization problems
+  - Cryptography
+  - Mathematical modeling
+  - Numerical methods
 Miscellaneous:
- - Word problems (age, distance, work, mixture)
- - Counting and probability paradoxes
- - Mathematical induction proofs
- - Inequalities (AM-GM, Cauchy-Schwarz, etc.)
- - Functional equations
- - Contest-specific problem types (AIME, USAMO, IMO, Putnam, etc.)
+  - Word problems (age, distance, work, mixture)
+  - Counting and probability paradoxes
+  - Mathematical induction proofs
+  - Inequalities (AM-GM, Cauchy-Schwarz, etc.)
+  - Functional equations
+  - Contest-specific problem types (AIME, USAMO, IMO, Putnam, etc.)
 
 ## knowledge from papers
 
