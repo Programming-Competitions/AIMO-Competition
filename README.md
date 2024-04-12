@@ -11,7 +11,8 @@ Deadline: June 20th
 ## Data
 
  - get all the past AMC/AIME/Putnam/other math data
- - links:
+links:
+ - https://artofproblemsolving.com/wiki/index.php/IMO_Problems_and_Solutions
  - http://markan.net/aime/syllabus.pdf IMPORTANT, Start with data categories/KG here
  - https://kskedlaya.org/putnam-archive/
  - https://drive.google.com/file/d/0B8JbOaFM5Xo_bnc2NUd0dDFLY1U/view?pref=2&pli=AIME&resourcekey=0-1tVMnKTLCkFlKuyljA_VyA
@@ -174,6 +175,11 @@ MiniCPM - 2404.06395
    - optimal batchsize: bs = 1.21×10^9 / L^6.24, L(loss), bs(batch_size)
    - LR doesnt change with scal, 0.5b to 7b same lr
    - WSD LR schedule helps push smaller models to much larger level models loss
+  
+Olympiad Bench - 2402.14008
+ - *Important, only other olympiad baseline?*
+ - deepseek-7b-rl appears to be the base model to be using, only non-gpt-4 model somewhat successful at olympiads
+ - 
 
 ## building/work
 
@@ -187,6 +193,11 @@ Baseline Stage (S1):
  - try schedule-free optimizer by meta
  - All the tricks from MiniCPM uP, wind tunnel, etc, and olympiad bench
  - start introducing large amounts of instruct data towards the end of pretraining, (maybe curriculum learning style?)
+ - thin and deep is better than shallow and wide
+ - smaller tokenizers helps out ~1-2b models
+ - Use GQA/MQA to drop parameters
+ - add large out pretrain-instruct mix data during scheduler decay
+ - DPO for Math? Correct/Incorrect solutions?
 
 **hmm possible path forward**
 
