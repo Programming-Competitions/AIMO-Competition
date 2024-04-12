@@ -179,7 +179,13 @@ MiniCPM - 2404.06395
 Olympiad Bench - 2402.14008
  - *Important, only other olympiad baseline?*
  - deepseek-7b-rl appears to be the base model to be using, only non-gpt-4 model somewhat successful at olympiads
- - 
+ - Biggest mistakes by models:
+    - lengthy reasoning proofs
+    - Mistakes in simplifying and transforming algebraic equations
+    - incorrect conclusions, too simple
+    - Misunderstanding the questions
+    - calculation errors
+    - often introducing unnesc. vars/concepts
 
 ## building/work
 
