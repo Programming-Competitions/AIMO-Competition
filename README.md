@@ -3,6 +3,9 @@
 [competition](https://www.kaggle.com/competitions/ai-mathematical-olympiad-prize/overview)
 Deadline: June 20th
 
+baseline notebook: https://www.kaggle.com/vatsadev/aimo-zero-shot-sc-mmos-deepseekmath-augment-prompt
+
+
 ## Goals
  - solve Olympiad level problems (AMC-12/AIME) with AI
  - Latex Math format understanding
