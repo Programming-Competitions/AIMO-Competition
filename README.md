@@ -25,13 +25,13 @@ links:
  - https://huggingface.co/datasets/wellecks/minif2f_isabelle
  - https://huggingface.co/datasets/cais/mmlu
  - ~~https://artofproblemsolving.com/wiki/index.php/AIME_Problems_and_Solutions~~
- - https://artofproblemsolving.com/wiki/index.php/AMC_12_Problems_and_Solutions
+ - ~~https://artofproblemsolving.com/wiki/index.php/AMC_12_Problems_and_Solutions~~
  - ~~https://artofproblemsolving.com/wiki/index.php/AMC_8_Problems_and_Solutions~~
- - https://artofproblemsolving.com/wiki/index.php/AMC_10_Problems_and_Solutions
- - https://artofproblemsolving.com/wiki/index.php/AHSME_Problems_and_Solutions
+ - ~~https://artofproblemsolving.com/wiki/index.php/AMC_10_Problems_and_Solutions~~
+ - ~~https://artofproblemsolving.com/wiki/index.php/AHSME_Problems_and_Solutions~~
  - ~~https://huggingface.co/datasets/hendrycks/competition_math~~
- - https://artofproblemsolving.com/wiki/index.php/USAJMO_Problems_and_Solutions
- - https://artofproblemsolving.com/wiki/index.php/USAMO_Problems_and_Solutions
+ - ~~https://artofproblemsolving.com/wiki/index.php/USAJMO_Problems_and_Solutions~~
+ - ~~https://artofproblemsolving.com/wiki/index.php/USAMO_Problems_and_Solutions~~
  - https://www.kaggle.com/datasets/alejopaullier/aimo-external-dataset
  - https://github.com/OpenBMB/OlympiadBench?scrlybrkr=4c9c022b
  - https://artofproblemsolving.com/community/c3158_usa_contests
@@ -101,64 +101,6 @@ add 10 <<<{tool:calcu(intl_a+10),store:ans}>>>
 the answer is {ans}
 ```
 *The model outputs this, cpu gives final answer*
-
-## Topics to look into
-- Algebra:
-  - Linear equations and inequalities
-  - Quadratic equations and functions
-  - Systems of equations
-  - Polynomial equations
-  - Rational expressions and equations
-  - Exponential and logarithmic functions
-  - Sequences and series
-  - Complex numbers
-Geometry:
-  - Triangles (similarity, congruence, special triangles)
-  - Quadrilaterals (parallelograms, trapezoids, kites)
-  - Circles (chords, tangents, arcs, sectors)
-  - 3D geometry (volumes, surface areas)
-  - Coordinate geometry
-  - Trigonometry
-  - Vectors
-Number Theory:
-  - Prime numbers and factorization
-  - Divisibility rules
-  - Greatest common divisor and least common multiple
-  - Modular arithmetic
-  - Diophantine equations
-  - Combinatorics
-  - Probability
-Calculus:
-  - Limits and continuity
-  - Derivatives and their applications
-  - Integrals and their applications
-  - Differential equations
-  - Polar coordinates
-  - Parametric equations
-  - Infinite series
-Discrete Mathematics:
-  - Logic and proofs
-  - Set theory
-  - Combinatorics (permutations, combinations)
-  - Graph theory
-  - Algorithms and complexity
-  - Recurrence relations
-  - Generating functions
-Applied Mathematics:
-  - Statistics and data analysis
-  - Linear algebra and matrices
-Game theory:
-  - Optimization problems
-  - Cryptography
-  - Mathematical modeling
-  - Numerical methods
-Miscellaneous:
-  - Word problems (age, distance, work, mixture)
-  - Counting and probability paradoxes
-  - Mathematical induction proofs
-  - Inequalities (AM-GM, Cauchy-Schwarz, etc.)
-  - Functional equations
-  - Contest-specific problem types (AIME, USAMO, IMO, Putnam, etc.)
 
 ## knowledge from papers
 
