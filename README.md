@@ -15,7 +15,7 @@ baseline notebook: https://www.kaggle.com/vatsadev/aimo-zero-shot-sc-mmos-deepse
 
  - get all the past AMC/AIME/Putnam/other math data
 links:
- - https://artofproblemsolving.com/wiki/index.php/IMO_Problems_and_Solutions
+ - ~~https://artofproblemsolving.com/wiki/index.php/IMO_Problems_and_Solutions~~
  - http://markan.net/aime/syllabus.pdf IMPORTANT, Start with data categories/KG here
  - https://kskedlaya.org/putnam-archive/
  - https://drive.google.com/file/d/0B8JbOaFM5Xo_bnc2NUd0dDFLY1U/view?pref=2&pli=AIME&resourcekey=0-1tVMnKTLCkFlKuyljA_VyA
@@ -24,12 +24,12 @@ links:
  - https://cjquines.com/files/obscuregeothms.pdf
  - https://huggingface.co/datasets/wellecks/minif2f_isabelle
  - https://huggingface.co/datasets/cais/mmlu
- - https://artofproblemsolving.com/wiki/index.php/AIME_Problems_and_Solutions
+ - ~~https://artofproblemsolving.com/wiki/index.php/AIME_Problems_and_Solutions~~
  - https://artofproblemsolving.com/wiki/index.php/AMC_12_Problems_and_Solutions
- - https://artofproblemsolving.com/wiki/index.php/AMC_8_Problems_and_Solutions
+ - ~~https://artofproblemsolving.com/wiki/index.php/AMC_8_Problems_and_Solutions~~
  - https://artofproblemsolving.com/wiki/index.php/AMC_10_Problems_and_Solutions
  - https://artofproblemsolving.com/wiki/index.php/AHSME_Problems_and_Solutions
- - https://huggingface.co/datasets/hendrycks/competition_math
+ - ~~https://huggingface.co/datasets/hendrycks/competition_math~~
  - https://artofproblemsolving.com/wiki/index.php/USAJMO_Problems_and_Solutions
  - https://artofproblemsolving.com/wiki/index.php/USAMO_Problems_and_Solutions
  - https://www.kaggle.com/datasets/alejopaullier/aimo-external-dataset
