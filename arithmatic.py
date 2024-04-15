@@ -158,3 +158,8 @@ def area_three_points(x1, y1, x2, y2, x3, y3):
 def area_two_sides_angle(a, b, C):
   """Calculate the area of a triangle using two side lengths and the included angle."""
   return 0.5 * a * b * math.sin(math.radians(C))
+
+# Calculus https://docs.sympy.org/latest/tutorials/intro-tutorial/calculus.html
+def diffOneVar(y, x):
+  return diff(y, x)
+  
