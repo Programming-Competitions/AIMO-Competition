@@ -5,6 +5,9 @@ Deadline: June 20th
 
 baseline notebook: https://www.kaggle.com/vatsadev/aimo-zero-shot-sc-mmos-deepseekmath-augment-prompt
 
+## **Finetune MMOS Deepseek RL on all the formatted instrutions(4-5k or less most likely, measure soon)**
+ - look into any inference/cot before doing so
+ - build rajs checker thing now
 
 ## Goals
  - solve Olympiad level problems (AMC-12/AIME) with AI
