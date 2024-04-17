@@ -113,6 +113,7 @@ Baseline Stage (S1):
  - try schedule-free optimizer by meta
  - All the tricks from MiniCPM uP, wind tunnel, etc, and olympiad bench
  - DPO for Math? Correct/Incorrect solutions?
+ - FT like orca-math did, bascially just SFT once, then KTO, then KTO again, if no KTO then double DPO, (make synthetic pairs for DPO)
 
 **hmm possible path forward**
 
