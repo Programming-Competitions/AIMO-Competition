@@ -38,7 +38,6 @@ links:
  - ~~https://artofproblemsolving.com/wiki/index.php/USAJMO_Problems_and_Solutions~~
  - ~~https://artofproblemsolving.com/wiki/index.php/USAMO_Problems_and_Solutions~~
  - https://github.com/OpenBMB/OlympiadBench?scrlybrkr=4c9c022b
- - https://artofproblemsolving.com/community/c3158_usa_contests
  - https://math.stackexchange.com/
  - https://www.math.northwestern.edu/undergraduate/prizes-competitions-organizations/putnam/putnam-selection-tests.html
  - https://www.math.northwestern.edu/documents/undergraduate/math-clubs-competitions-prizes/putnam/easy_putnam_problems.pdf
@@ -114,6 +113,13 @@ Baseline Stage (S1):
  - All the tricks from MiniCPM uP, wind tunnel, etc, and olympiad bench
  - DPO for Math? Correct/Incorrect solutions?
  - FT like orca-math did, bascially just SFT once, then KTO, then KTO again, if no KTO then double DPO, (make synthetic pairs for DPO)
+
+*Inference time boosts*
+ - If the model can code verify with the same answer, give the answer a higher weightage in the sum
+ - Uncertain gets no extra weight, False gets less weightage
+ - prompt diversity helps, using `you are alan turing/einstien`, the famous `you just had two cold beers` or `you are a math professor`
+ - find the aime equivalent versions of reasoning strats like `“using visualizations, working backwards, using direct calculation, method of elimination`
+ - start with 10 examples for deepseek-math-rl, but examples have the diverse prompt additions, use a famous math personality depending on the question, ex. `you are {person}, an expert in {topic}, solve this:` otherwise just use `terence tao`
 
 **hmm possible path forward**
 
