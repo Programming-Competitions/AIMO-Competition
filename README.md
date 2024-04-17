@@ -7,6 +7,8 @@ baseline notebook: https://www.kaggle.com/vatsadev/aimo-zero-shot-sc-mmos-deepse
 
 **LORA Finetune MMOS Deepseek RL on all the formatted instrutions(4-5k or less most likely, measure soon)** 
 
+*16bit https://huggingface.co/datasets/microsoft/orca-math-word-problems-200k ft*
+
 *would do a full finetune, but im poor, no h100 sxm :(*
  - look into any inference/cot before doing so
  - build rajs checker thing now
@@ -21,14 +23,12 @@ baseline notebook: https://www.kaggle.com/vatsadev/aimo-zero-shot-sc-mmos-deepse
  - get all the past AMC/AIME/Putnam/other math data
 links:
  - ~~https://artofproblemsolving.com/wiki/index.php/IMO_Problems_and_Solutions~~
- - http://markan.net/aime/syllabus.pdf IMPORTANT, Start with data categories/KG here
+ - ~~http://markan.net/aime/syllabus.pdf IMPORTANT, Start with data categories/KG here~~
  - https://kskedlaya.org/putnam-archive/
  - https://drive.google.com/file/d/0B8JbOaFM5Xo_bnc2NUd0dDFLY1U/view?pref=2&pli=AIME&resourcekey=0-1tVMnKTLCkFlKuyljA_VyA
  - https://cdn.artofproblemsolving.com/attachments/9/3/9ed002bb3307e38c2e626fc7354d1fc28f231a.pdf
- - https://davidaltizio.web.illinois.edu/CollectionOfAIMESolutions.pdf
+ - ~~https://davidaltizio.web.illinois.edu/CollectionOfAIMESolutions.pdf~~
  - https://cjquines.com/files/obscuregeothms.pdf
- - https://huggingface.co/datasets/wellecks/minif2f_isabelle
- - https://huggingface.co/datasets/cais/mmlu
  - ~~https://artofproblemsolving.com/wiki/index.php/AIME_Problems_and_Solutions~~
  - ~~https://artofproblemsolving.com/wiki/index.php/AMC_12_Problems_and_Solutions~~
  - ~~https://artofproblemsolving.com/wiki/index.php/AMC_8_Problems_and_Solutions~~
@@ -37,7 +37,6 @@ links:
  - ~~https://huggingface.co/datasets/hendrycks/competition_math~~
  - ~~https://artofproblemsolving.com/wiki/index.php/USAJMO_Problems_and_Solutions~~
  - ~~https://artofproblemsolving.com/wiki/index.php/USAMO_Problems_and_Solutions~~
- - https://www.kaggle.com/datasets/alejopaullier/aimo-external-dataset
  - https://github.com/OpenBMB/OlympiadBench?scrlybrkr=4c9c022b
  - https://artofproblemsolving.com/community/c3158_usa_contests
  - https://math.stackexchange.com/
@@ -47,49 +46,13 @@ links:
  - https://www2.math.upenn.edu/~wilf/gfologyLinked2.pdf
  - https://vjimc.osu.cz/problems
  - https://www.imc-math.org.uk/?year=1994&item=problems
- - https://math.vt.edu/undergrad-math/vtrmc.html
  - https://huggingface.co/datasets/math-ai/TemplateGSM
  - https://huggingface.co/datasets/math-ai/StackMathQA
- - https://huggingface.co/datasets/EleutherAI/proof-pile-2
  - https://huggingface.co/datasets/nvidia/OpenMathInstruct-1
-https://huggingface.co/datasets/EleutherAI/proof-pile-2
-
- - scrape annas archive for math/logic textbooks
- - wolfram database
- - tora dataset
- - Curriculum learning off british olympiads
-    - Primary: https://www.primarymathschallenge.org.uk/fmc-downloads, https://www.primarymathschallenge.org.uk/downloads
-    - Secondary: https://ukmt.org.uk/current-past-papers
- - synthetic datasets of algebra/calc problems with step by step problem solving breakdown from solver
- - for complex word problems, find AIME level questions, replace numbers/adjectives to build brand new questions, keep the step by step process
- - websites around this math and similar
- - curriculum learning dataset
- - Open Math datasets, good science/Latex datasets, open-plat, etc
- - Synthetic math calculators outputs
- - code datasets to improve reasoning
- - tool use/python lib use dataset
- - Logic symbol usage datasets
- - Complex algebra, cubic, quadratic, etc datasets
- - Trigonometry fundamentals and basics datasets
- - old Nanophi datasets
- - Synthetic data building by making the AI generate questions, stuff from its embedding space, see whether the AI can solve them, forms logic/non-logic pockets in the embeddings
- - Reasoning Datasets:
-    - https://huggingface.co/datasets/lighteval/synthetic_reasoning
-    - https://huggingface.co/datasets/Nan-Do/SPP_30K_reasoning_tasks
-    - https://huggingface.co/datasets/lighteval/synthetic_reasoning_natural
 
 ## Models/Frameworks
 
 Baseline: Gemma 7b can get 3/50 problems
-
-Me currently using GPT-2, go for a better model/start
- - Get better math-first Tokenizers
- - formats
- - build NanoGPT benchmarks
- - Try out Xval Arithmetic
- - Tool/python code use
- - good algebra/calc solving
- - build proof/logic checkers, alpha geometry style
 
 look into math selfplay, Q* geohot version
 
@@ -145,14 +108,10 @@ Baseline Stage (S1):
  - Start building a universal format/scraping all the data to it
  - testing claude opus for a sympy format
 
-**Lil train/ft boost**
+**Lil ft boost**
+ - *curriculum learning dataset format with the math questions sorted by difficulty*
  - try schedule-free optimizer by meta
  - All the tricks from MiniCPM uP, wind tunnel, etc, and olympiad bench
- - start introducing large amounts of instruct data towards the end of pretraining, (maybe curriculum learning style?)
- - thin and deep is better than shallow and wide
- - smaller tokenizers helps out ~1-2b models
- - Use GQA/MQA to drop parameters
- - add large out pretrain-instruct mix data during scheduler decay
  - DPO for Math? Correct/Incorrect solutions?
 
 **hmm possible path forward**
