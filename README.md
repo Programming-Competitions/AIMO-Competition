@@ -123,6 +123,7 @@ Baseline Stage (S1):
  - try more than 10+ reasoning chains with temp sampling, but it saturates at 10 usually, and find optimal-temp to be sampling at?
  - Have a fuzz vector search from all the questions we can find on the internet
  - back tracking, if the model can get to parts of the initial question with just the answer and the steps, the answer is more likely to be coherent, give it extra weightage
+ - for all the multi-shot fuzzes, sort the multishot by descending order, most similar towards the top
 
 **hmm possible path forward**
 
