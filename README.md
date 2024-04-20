@@ -99,6 +99,17 @@ Olympiad Bench - 2402.14008
     - calculation errors
     - often introducing unnesc. vars/concepts
 
+Evoprompt - 2309.08532
+ - run an evolutionary algo on the prompts, like prompt breeder but better
+ - start with a human prompt set, let the LLMs add new stuff to it, score by MMLU/OlympiadBench/Putnam performance
+ - Algorithim description:
+```
+start with a list of prompts p0 and a score them 1 by 1 on olympiad-bench
+run genetic algo by score, give the LLM the best ones
+give the LLM info on current best prompts and previous prompts, make it make new better ones
+return new prompts
+```
+
 ## building/work
 
 Baseline Stage (S1):
@@ -123,7 +134,10 @@ Baseline Stage (S1):
  - try more than 10+ reasoning chains with temp sampling, but it saturates at 10 usually, and find optimal-temp to be sampling at?
  - Have a fuzz vector search from all the questions we can find on the internet
  - back tracking, if the model can get to parts of the initial question with just the answer and the steps, the answer is more likely to be coherent, give it extra weightage
+ - same as the other point, verify each solution through the first time to make sure it gets it right there, maybe check the step through lean/isabelle?
  - for all the multi-shot fuzzes, sort the multishot by descending order, most similar towards the top
+ - play with the model and make base prompts, Gemini/GPT-4 with evoprompt makes new ones for us, need heavy prompt diversity, (High temp+repetition?)
+ - someone test reframe of the bot with
 
 **hmm possible path forward**
 
