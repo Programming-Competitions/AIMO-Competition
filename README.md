@@ -137,7 +137,7 @@ Baseline Stage (S1):
  - same as the other point, verify each solution through the first time to make sure it gets it right there, maybe check the step through lean/isabelle?
  - for all the multi-shot fuzzes, sort the multishot by descending order, most similar towards the top
  - play with the model and make base prompts, Gemini/GPT-4 with evoprompt makes new ones for us, need heavy prompt diversity, (High temp+repetition?)
- - someone test reframe of the bot with
+ - someone test reframe the questions for the bot to see where it goes wrong
 
 **hmm possible path forward**
 
