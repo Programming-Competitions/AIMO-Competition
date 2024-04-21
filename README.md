@@ -24,11 +24,8 @@ baseline notebook: https://www.kaggle.com/vatsadev/aimo-zero-shot-sc-mmos-deepse
 links:
  - ~~https://artofproblemsolving.com/wiki/index.php/IMO_Problems_and_Solutions~~
  - ~~http://markan.net/aime/syllabus.pdf IMPORTANT, Start with data categories/KG here~~
- - https://kskedlaya.org/putnam-archive/
- - https://drive.google.com/file/d/0B8JbOaFM5Xo_bnc2NUd0dDFLY1U/view?pref=2&pli=AIME&resourcekey=0-1tVMnKTLCkFlKuyljA_VyA
- - https://cdn.artofproblemsolving.com/attachments/9/3/9ed002bb3307e38c2e626fc7354d1fc28f231a.pdf
+ - ~~https://kskedlaya.org/putnam-archive/~~
  - ~~https://davidaltizio.web.illinois.edu/CollectionOfAIMESolutions.pdf~~
- - https://cjquines.com/files/obscuregeothms.pdf
  - ~~https://artofproblemsolving.com/wiki/index.php/AIME_Problems_and_Solutions~~
  - ~~https://artofproblemsolving.com/wiki/index.php/AMC_12_Problems_and_Solutions~~
  - ~~https://artofproblemsolving.com/wiki/index.php/AMC_8_Problems_and_Solutions~~
@@ -39,15 +36,8 @@ links:
  - ~~https://artofproblemsolving.com/wiki/index.php/USAMO_Problems_and_Solutions~~
  - https://github.com/OpenBMB/OlympiadBench?scrlybrkr=4c9c022b
  - https://math.stackexchange.com/
- - https://www.math.northwestern.edu/undergraduate/prizes-competitions-organizations/putnam/putnam-selection-tests.html
- - https://www.math.northwestern.edu/documents/undergraduate/math-clubs-competitions-prizes/putnam/easy_putnam_problems.pdf
- - https://www.math.northwestern.edu/documents/undergraduate/math-clubs-competitions-prizes/putnam/training_problems.pdf
- - https://www2.math.upenn.edu/~wilf/gfologyLinked2.pdf
  - https://vjimc.osu.cz/problems
  - https://www.imc-math.org.uk/?year=1994&item=problems
- - https://huggingface.co/datasets/math-ai/TemplateGSM
- - https://huggingface.co/datasets/math-ai/StackMathQA
- - https://huggingface.co/datasets/nvidia/OpenMathInstruct-1
 
 ## Models/Frameworks
 
