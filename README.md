@@ -34,10 +34,6 @@ links:
  - ~~https://huggingface.co/datasets/hendrycks/competition_math~~
  - ~~https://artofproblemsolving.com/wiki/index.php/USAJMO_Problems_and_Solutions~~
  - ~~https://artofproblemsolving.com/wiki/index.php/USAMO_Problems_and_Solutions~~
- - https://github.com/OpenBMB/OlympiadBench?scrlybrkr=4c9c022b
- - https://math.stackexchange.com/
- - https://vjimc.osu.cz/problems
- - https://www.imc-math.org.uk/?year=1994&item=problems
 
 ## Models/Frameworks
 
@@ -108,13 +104,6 @@ Baseline Stage (S1):
  - Start building a universal format/scraping all the data to it
  - testing claude opus for a sympy format
 
-**Lil ft boost**
- - *curriculum learning dataset format with the math questions sorted by difficulty*
- - try schedule-free optimizer by meta
- - All the tricks from MiniCPM uP, wind tunnel, etc, and olympiad bench
- - DPO for Math? Correct/Incorrect solutions?
- - FT like orca-math did, bascially just SFT once, then KTO, then KTO again, if no KTO then double DPO, (make synthetic pairs for DPO)
-
 *Inference time boosts*
  - If the model can code verify with the same answer, give the answer a higher weightage in the sum
  - Uncertain gets no extra weight, False gets less weightage
@@ -128,6 +117,8 @@ Baseline Stage (S1):
  - for all the multi-shot fuzzes, sort the multishot by descending order, most similar towards the top
  - play with the model and make base prompts, Gemini/GPT-4 with evoprompt makes new ones for us, need heavy prompt diversity, (High temp+repetition?)
  - someone test reframe the questions for the bot to see where it goes wrong
+ - DPO for Math? Correct/Incorrect solutions?
+ - FT like orca-math did, bascially just SFT once, then KTO, then KTO again, if no KTO then double DPO, (make synthetic pairs for DPO)
 
 **hmm possible path forward**
 
