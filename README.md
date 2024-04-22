@@ -18,10 +18,7 @@ baseline notebook: https://www.kaggle.com/vatsadev/aimo-zero-shot-sc-mmos-deepse
  - Latex Math format understanding
  - good mathematical reasoning skill
 
-## Data
-
- - get all the past AMC/AIME/Putnam/other math data
-links:
+## Data (All collected)
  - ~~https://artofproblemsolving.com/wiki/index.php/IMO_Problems_and_Solutions~~
  - ~~http://markan.net/aime/syllabus.pdf IMPORTANT, Start with data categories/KG here~~
  - ~~https://kskedlaya.org/putnam-archive/~~
