@@ -101,11 +101,11 @@ Baseline Stage (S1):
  - Start building a universal format/scraping all the data to it
  - testing claude opus for a sympy format
 
-*Inference time boosts*
+## Inference time boosts*
  - If the model can code verify with the same answer, give the answer a higher weightage in the sum
- - Uncertain gets no extra weight, False gets less weightage
+  - Uncertain gets no extra weight, False gets less weightage
  - prompt diversity helps, using `you are alan turing/einstien`, the famous `you just had two cold beers` or `you are a math professor`
- - find the aime equivalent versions of reasoning strats like `“using visualizations, working backwards, using direct calculation, method of elimination`
+  - find the aime equivalent versions of reasoning strats like `“using visualizations, working backwards, using direct calculation, method of elimination`
  - start with 8-10 examples () for deepseek-math-rl, but examples have the diverse prompt additions, use a famous math personality depending on the question, ex. `you are {person}, an expert in {topic}, solve this:` otherwise just use `terence tao`
  - try more than 10+ reasoning chains with temp sampling, but it saturates at 10 usually, and find optimal-temp to be sampling at?
  - Have a fuzz vector search from all the questions we can find on the internet
@@ -117,7 +117,7 @@ Baseline Stage (S1):
  - DPO for Math? Correct/Incorrect solutions?
  - FT like orca-math did, bascially just SFT once, then KTO, then KTO again, if no KTO then double DPO, (make synthetic pairs for DPO)
 
-**hmm possible path forward**
+## hmm possible path forward
 
  - self consistency search helps with answer consistency, but fails when the LLM fails to get the question misinterped?
  - Compiling a question to specific logical symbols and specific words we know the meaning to, means that we can format/rephrase any way we want
