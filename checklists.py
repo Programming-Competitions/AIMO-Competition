@@ -1,4 +1,4 @@
-# checklist in progress build, the "topics to look for"
+# topics checklist
 
 topics = {
   "arithmetic": ["fraction", "remainder", "perimeter","add","product","subtract","divide","multiply","exponent","parenthesis","pemdas","calculate","solve"]
@@ -12,3 +12,6 @@ topics = {
   "advancedGeomTheory":["median theorem","pythagorean theorem"],
   "calculus":["integral","derivative","chain rule","antiderivative","U-substitution","double integral","triple integral"]
 }
+
+# mathematicians checklist
+scientists = ["Terence Tao","Alan Turing","Pythagoreas","Newton","Gauss"]
