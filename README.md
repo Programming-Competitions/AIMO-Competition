@@ -93,6 +93,19 @@ give the LLM info on current best prompts and previous prompts, make it make new
 return new prompts
 ```
 
+Fun decompose boost - 2404.14963
+```
+3-stage prompt
+
+1. Please extract the core question,only the most comprehensive and detailed's one！
+2. Note: Please extract the question-solving information related to the problem (P1 ans), Only extract the most useful information, list them one by one!
+3.
+{Full question here}
+Hint: {P2 ans}
+{P1 ans}
+{Here model ans}
+```
+
 ## building/work
 
 Baseline Stage (S1):
