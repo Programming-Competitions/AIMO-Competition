@@ -119,7 +119,7 @@ Baseline Stage (S1):
   - Uncertain gets no extra weight, False gets less weightage
  - prompt diversity helps, using `you are alan turing/einstien`, the famous `you just had two cold beers` or `you are a math professor`
   - find the aime equivalent versions of reasoning strats like `“using visualizations, working backwards, using direct calculation, method of elimination`
- - start with 8-10 examples () for deepseek-math-rl, but examples have the diverse prompt additions, use a famous math personality depending on the question, ex. `you are {person}, an expert in {topic}, solve this:` otherwise just use `terence tao`
+ - start with 8-10 examples for deepseek-math-rl, but examples have the diverse prompt additions, use a famous math personality depending on the question, ex. `you are {person}, an expert in {topic}, solve this:` otherwise just use `terence tao`
  - try more than 10+ reasoning chains with temp sampling, but it saturates at 10 usually, and find optimal-temp to be sampling at?
  - Have a fuzz vector search from all the questions we can find on the internet
  - back tracking, if the model can get to parts of the initial question with just the answer and the steps, the answer is more likely to be coherent, give it extra weightage
@@ -129,6 +129,7 @@ Baseline Stage (S1):
  - someone test reframe the questions for the bot to see where it goes wrong
  - DPO for Math? Correct/Incorrect solutions?
  - FT like orca-math did, bascially just SFT once, then KTO, then KTO again, if no KTO then double DPO, (make synthetic pairs for DPO)
+ - from https://arxiv.org/pdf/2406.02543, ask a question, get an answer, if the model is low on knowledge, then when asking the same question with other possible answers, drastically changes the answers, while if its sure, will barely change the answer (also keeping answer probabilites probably helps here)
 
 ## hmm possible path forward
 
